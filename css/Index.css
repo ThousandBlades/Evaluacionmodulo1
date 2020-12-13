@@ -162,10 +162,13 @@ p {
     justify-content: center;
     }
     #bannersmol {
-    display:none;
+    width: 0px;
     }
     #bannerbig {
     width: 648px;
+    }
+    #bannerbigger {
+        width: 0px;
     }
 
 }   
@@ -184,18 +187,23 @@ p {
     width: 10em
     }
     #bannersmol {
-        display:none;
+        width: 0px;
     }
     
     #bannerbig {
         width: 648px;
     }
+    #bannerbigger {
+        width: 0px;
+    }
 }
 
 @media only screen and (min-width: 1340px) {
-
+    #bannersmol {
+        width: 0px;
+    }
     #bannerbig {
-        display: none;
+        width: 0px;
     }
     #bannerbigger {
         width: 1200px;
